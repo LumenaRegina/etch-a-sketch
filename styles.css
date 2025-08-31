@@ -6,7 +6,7 @@ div {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    height: fit-content;
+    height: auto;
 }
 
 .row {

@@ -16,6 +16,6 @@ for (i = 0; i<y; i++) {
     }
 }
 
-container.addEventListener("mouseover", () => {
+container.addEventListener("mouseover", (event) => {
     event.target.classList.add("hovered")
 })
