@@ -26,7 +26,10 @@ function drawGrid(x=16,y=x, target=document.querySelector(".grid")){
 }
 
 container.addEventListener("mouseover", (event) => {
-    event.target.classList.add("hovered")
+    let red = 255*Math.random()
+    let green = 255*Math.random()
+    let blue = 255*Math.random()
+    event.target.style.backgroundColor = `rgb(${red},${green},${blue})`;
 })
 
 drawGrid()
