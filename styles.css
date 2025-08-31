@@ -2,21 +2,47 @@ div {
     box-sizing: border-box;
 }
 
-.container {
+.header {
     display: flex;
+    justify-content: space-between;
+    width: 90vh;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: larger;
+    font-family: Verdana;
+    font-weight: 900;
+    margin-bottom: 25px;
+
+}
+
+button {
+    border-radius: 25px;
+    background-color:crimson;
+    color: whitesmoke;
+    padding: 0 25px;
+}
+
+.container {
+    width: 90vh;
+    height: 90vh;
+}
+
+.grid {
+    display: flex;
+
     flex-direction: column;
-    width: fit-content;
-    height: auto;
+    width: 90vh;
+    height: 90vh;
 }
 
 .row {
     display: flex;
+    flex: auto;
 }
 
 .square {
-    width: 75px;
-    height: 75px;
-    border: 3px, solid, steelblue;
+    flex: auto;
+    border: 1px, solid, steelblue;
 }
 
 .hovered {
